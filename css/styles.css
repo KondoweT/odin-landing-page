@@ -1,0 +1,15 @@
+.imglogo{
+    width: 75px;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.placeimg{
+    width: 400px;
+    height: auto;
+}
