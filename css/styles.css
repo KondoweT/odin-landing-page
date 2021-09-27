@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Lora', serif;
 }
 
 header, footer{
@@ -13,6 +16,8 @@ footer{
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    padding: 32px;
+    font-size: 18px;
 }
 
 .imglogo{
@@ -50,7 +55,7 @@ footer{
 }
 
 .nav ul li a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: goldenrod;
 }
 
@@ -93,4 +98,138 @@ footer{
 
 .herobut:hover{
     background-color: goldenrod;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tractor{
+    width: 300px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+
+}
+
+.tractor:hover{
+    border: 2px solid #1f2937;
+    /* border-radius: 15px; */
+}
+
+.tractorimg{
+    width: 280px;
+    height: 250px;
+    border: #3882f6 5px solid;
+    border-radius: 15px;
+}
+
+.tractor ul{
+    flex: 1 1 auto;
+}
+
+.tractor ul li {
+    font-size: 16px;
+    color:#1f2937;
+    list-style-type: square;
+}
+
+h3{
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.select{
+    padding: 4px 26px;
+    background-color: #3882f6;
+    border: none;
+    color:#e5e7eb;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.select:hover{
+    background-color: goldenrod;
+}
+
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+}
+
+figure{
+    max-width: 60vw;
+    margin: 10px auto;
+    padding: 48px 48px 78px 48px;
+}
+
+figcaption{
+    font-size: 26px;
+    font-weight: 900;
+    text-align: right;
+    color: #1f2937;
+    margin-top: -38px;
+}
+
+.ourpick{
+    margin-bottom: 25px;
+}
+
+.newsletter{
+    display: flex;
+    background-color: #3882f6;
+    max-width: 70vw;
+    margin: 80px auto;
+    padding: 40px 24px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    max-width: 50%;
+}
+
+.call h3{
+    margin: 0;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+.call p {
+    margin-top: 5px;
+    color:#e5e7eb;
+    font-size: 17px;
+}
+
+.right{
+    border: #e5e7eb 2px solid;
 }
