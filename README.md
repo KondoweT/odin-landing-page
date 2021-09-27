@@ -1,10 +1,16 @@
 # Utility Tractor Product Landing Page
 
 ## Introduction
-    This is the documentation for my odin project product landing page. The product landing page was designed in accordance with the theme which is provided by the odin project product landing page image. Most of the design elements and such as font, color,  margins are based on the font & color image provided.
+    This is the documentation for my odin project product landing page.
+    The product landing page was designed in accordance with the theme
+    which is provided by the odin project product landing page image.
+    Most of the design elements and such as font, color,  margins are
+    based on the font & color image provided.
 
 ## Funtionality
-    The landing page is not as complex as a real product landing page which has sales and cofigaration features. This landing page is designed as a landing page for products from just a few Utility Tractor companies.
+    The landing page is not as complex as a real product landing page.
+    It doesn't have sales and cofigaration features, this landing page
+    is designed as a landing page for products from just a few Utility Tractor companies.
 
 ## Atribution
 - Images in the header of the product landing page were obtained from pixelbay a free online atribution free images website
